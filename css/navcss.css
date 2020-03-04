@@ -1,0 +1,123 @@
+
+body {
+margin:0;
+padding:0;
+background: black;
+color:white;
+overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  background: black !important;
+  transition: margin .25s ease-out;
+  border-right:1px solid black !important ;
+}
+.sub-text{
+  text-transform: uppercase;
+  color:white;
+  font-weight:900;
+  letter-spacing: 2px;
+}
+.sidebar-heading{
+  font-weight:900;
+  letter-spacing: 3px;
+}
+.name{margin-left:16px;}
+.list-group-item{
+  background: black !important;
+  color:white;
+}
+.list-group-item:hover{
+  background: white !important;
+}
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  border:5px solid #138496;
+}
+.navbar{
+  background: black !important;
+}
+.fa-twitter,.fa-facebook-square,.fa-instagram,.fa-download,.fa-users,#navbarDropdown{
+  color:white !important;
+  border:1px solid black  !important; 
+}
+.fa-bars{
+  color:black;
+}
+.btn-primary{
+  background: white;}
+  .btn-primary:hover{
+    background: white;}
+
+ .btn-primary:focus{
+   border:none;
+   box-shadow: none;
+ }   
+ 
+.btn-default{
+  color:white !important;
+}
+.button{
+  background: white;
+}
+.fa-search{
+  color:black;
+}
+.form-control{
+  width:70% !important;
+}
+.main-heading{
+  letter-spacing: 1px;
+
+}
+.fa-play-circle{
+  margin-left:10px;
+  color:red;
+}
+.song-name{
+  text-transform: uppercase;
+  color:white;
+  font-weight:400;
+}
+.list-group-item:hover{
+   background: black !important;
+   color:#17A2B8;
+}
+.play,.fa-pause-circle{
+  color:white;
+  font-size: 26px;
+  color:#17A2B8;
+}
